@@ -53,7 +53,7 @@ Thank you for reading!
 如果您有一些好主意，可以通过13621905107@163.com与我联系。如有来信，我将不胜荣幸！
 
 ## 博客
-您可以在网站（http://www.cnblogs.com/PaulpauL/）上看到该应用程序的中文描述。我在等你。
+您可以在网站（http://www.cnblogs.com/PaulpauL/ ）上看到该应用程序的中文描述。我在等你。
 
 ## 结束
 谢谢你的阅读！
