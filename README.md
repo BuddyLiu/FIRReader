@@ -7,8 +7,8 @@ If you want to download your test app,or your friend want.You can use this app.
 
 ## Prepare
 
-1. You should have an account of a websit(https://fir.im).
-2. You need a API token to find your apps in page(https://fir.im/docs).
+1. You should have an account of a websit(https://fir.im ).
+2. You need a API token to find your apps in page(https://fir.im/docs ).
 3. You can use it after input you API token in '!'(click '!' to open input textfield).
 
 ## Include
@@ -24,7 +24,7 @@ If you want to download your test app,or your friend want.You can use this app.
 If you have some good ideas, you can contact me by 13621905107@163.com. It\`s a happy things to recieve you message.
 
 ## Blog
-You can see a chinese description of this app in this website(http://www.cnblogs.com/PaulpauL/). I\`m waiting for you.
+You can see a chinese description of this app in this website(http://www.cnblogs.com/PaulpauL/ ). I\`m waiting for you.
 
 ## end
 Thank you for reading!
@@ -38,8 +38,8 @@ Thank you for reading!
 
 ## 准备
 
-1.您应该拥有一个网站帐户（https://fir.im）。
-2.您需要一个API令牌才能在页面中找到您的应用程序（https://fir.im/docs）。
+1.您应该拥有一个网站帐户（https://fir.im ）。
+2.您需要一个API令牌才能在页面中找到您的应用程序（https://fir.im/docs ）。
 3.您可以在'!'中输入API令牌后使用它（单击'!'打开输入文本字段）。
 
 ## 包括
