@@ -1,0 +1,36 @@
+/* 
+  English-Localizable.strings
+  ComponentizedFramework
+
+  Created by Paul on 2018/8/23.
+  Copyright © 2018年 Paul. All rights reserved.
+*/
+
+Btn_Title_Back = "Back";
+Btn_title_Refresh = "Refresh";
+Btn_title_Pop = "Pop";
+
+tableView_Cell_Title_IndexOne = "Internationalization";
+tableView_Cell_Title_IndexTwo = "Custom pop-up view";
+tableView_Cell_Title_IndexThree = "Timer";
+tableView_Cell_Title_IndexFour = "Marquee";
+tableView_Cell_Title_IndexFive = "Hover";
+
+tableView_Cell_SubTitle_IndexOne = "Can change the language within the application";
+tableView_Cell_SubTitle_IndexTwo = "Customization can be achieved by changing the Xib view style";
+tableView_Cell_SubTitle_IndexThree = "Three ways to achieve timing, easy to call";
+tableView_Cell_SubTitle_IndexFour = "Scroll up and down to display information, style is completely customized";
+tableView_Cell_SubTitle_IndexFive = "Column list head hovering at the top";
+
+PageMenu_Item_Title0 = "Task A";
+PageMenu_Item_Title1 = "Task B";
+PageMenu_Item_Title2 = "Task C";
+
+Blur_Type_No = "No hair glass layer to close the animation";
+Blur_Type_Up = "Pick up the ground glass layer";
+Blur_Type_Down = "Pick up the ground glass layer";
+Blur_Type_Left = "Retract the ground glass layer to the left";
+Blur_Type_Right = "Retract the ground glass layer to the right";
+Blur_Type_Gradient = "Gradiently retracts the ground glass layer";
+
+Demo_LocalizedViewController_DetailLabel_Text = " An iOS app, if you want to be on the AppleStore in multiple countries and regions, is a very simple thing. If you want a good user experience in every country and region, you need to do first One of the things is that the user can open the app for the first time and see the language that he is familiar with. That is to say, the App can change the language in the app in real time according to the language currently used by the user or the language manually selected by the user. This is the purpose of iOS internationalization.\n\nLink: https://www.jianshu.com/p/7cb0fad6d06f\nSource: Short book";

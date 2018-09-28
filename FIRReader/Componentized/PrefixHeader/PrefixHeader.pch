@@ -1,0 +1,141 @@
+//
+//  PrefixHeader.pch
+//  ComponentizedFramework
+//
+//  Created by Paul on 2018/8/23.
+//  Copyright © 2018年 Paul. All rights reserved.
+//
+
+/**
+ * PrefixHeader文件引用
+ **/
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// 在此处包括应包含在所有编译单元中的任何系统框架和库头。
+// 您还需要设置一个或多个目标的Prefix Header构建设置以引用此文件。
+
+#import "PrefixHeader_CommonInfo.h"                 //APP信息宏定义
+#import "PrefixHeader_ConfigurationInfo.h"          //配置信息宏定义
+#import "PrefixHeader_GenneralTool.h"               //常用方法宏定义
+#import "PrefixHeader_GlobalStaticInfo.h"           //静态信息宏定义
+#import "PrefixHeader_PromptMessage.h"              //提示信息宏定义
+#import "PrefixHeader_Headers.h"                    //常用头文件引用
+
+#endif /* PrefixHeader_pch */
+
+
+/*
+ Info.plist 常用键值对
+ 
+ //网络请求权限
+ <key>NSAppTransportSecurity</key>
+ <dict>
+ <key>NSAllowsArbitraryLoads</key>
+ <true/>
+ </dict>
+ 
+ //app常用权限申请
+ <key>NSAppleMusicUsageDescription</key>
+ <string>APP需要访问多媒体来设置您的个性化头像，您是否允许访问多媒体进行设置？</string>
+ <key>NSCameraUsageDescription</key>
+ <string>APP需要访问多媒体来设置您的个性化头像，您是否允许访问相机进行设置？</string>
+ <key>NSMicrophoneUsageDescription</key>
+ <string>APP需要访问麦克风来使用在线客服功能，您是否允许访问麦克风？</string>
+ <key>NSPhotoLibraryAddUsageDescription</key>
+ <string>APP需要访问多媒体来设置您的个性化头像，您是否允许访问相册进行设置？</string>
+ <key>NSPhotoLibraryUsageDescription</key>
+ <string>APP需要访问多媒体来设置您的个性化头像，您是否允许访问相册进行设置？</string>
+ 
+ //白名单自iOS9引入，要访问APP的scheme
+ <key>LSApplicationQueriesSchemes</key>
+ <array>
+ <string>wechat</string>
+ <string>weixin</string>
+ <string>mqqapi</string>
+ <string>mqq</string>
+ <string>mqqOpensdkSSoLogin</string>
+ <string>mqqconnect</string>
+ <string>mqqopensdkdataline</string>
+ <string>mqqopensdkgrouptribeshare</string>
+ <string>mqqopensdkfriend</string>
+ <string>mqqopensdkapi</string>
+ <string>mqqopensdkapiV2</string>
+ <string>mqqopensdkapiV3</string>
+ <string>mqqopensdkapiV4</string>
+ <string>mqzoneopensdk</string>
+ <string>wtloginmqq</string>
+ <string>wtloginmqq2</string>
+ <string>mqqwpa</string>
+ <string>mqzone</string>
+ <string>mqzonev2</string>
+ <string>mqzoneshare</string>
+ <string>wtloginqzone</string>
+ <string>mqzonewx</string>
+ <string>mqzoneopensdkapiV2</string>
+ <string>mqzoneopensdkapi19</string>
+ <string>mqzoneopensdkapi</string>
+ <string>mqqbrowser</string>
+ <string>mttbrowser</string>
+ <string>tim</string>
+ <string>timapi</string>
+ <string>timopensdkfriend</string>
+ <string>timwpa</string>
+ <string>timgamebindinggroup</string>
+ <string>timapiwallet</string>
+ <string>timOpensdkSSoLogin</string>
+ <string>wtlogintim</string>
+ <string>timopensdkgrouptribeshare</string>
+ <string>timopensdkapiV4</string>
+ <string>timgamebindinggroup</string>
+ <string>timopensdkdataline</string>
+ <string>wtlogintimV1</string>
+ <string>timapiV1</string>
+ </array>
+
+ //允许其他APP从网页打开自己APP的白名单，一般用来处理微信，qq或支付宝完成后的回调
+ <key>CFBundleURLTypes</key>
+ <array>
+ <dict>
+ <key>CFBundleTypeRole</key>
+ <string>Editor</string>
+ <key>CFBundleURLName</key>
+ <string>wechat</string>
+ <key>CFBundleURLSchemes</key>
+ <array>
+ <string>wxcbea738e0e6d0686</string>
+ </array>
+ </dict>
+ <dict>
+ <key>CFBundleTypeRole</key>
+ <string>Editor</string>
+ <key>CFBundleURLName</key>
+ <string>weixin</string>
+ <key>CFBundleURLSchemes</key>
+ <array>
+ <string>per.jianJi</string>
+ </array>
+ </dict>
+ <dict>
+ <key>CFBundleTypeRole</key>
+ <string>Editor</string>
+ <key>CFBundleURLName</key>
+ <string>qq</string>
+ <key>CFBundleURLSchemes</key>
+ <array>
+ <string>100424468</string>
+ </array>
+ </dict>
+ <dict>
+ <key>CFBundleTypeRole</key>
+ <string>Editor</string>
+ <key>CFBundleURLSchemes</key>
+ <array>
+ <string>myzq-jfq</string>
+ </array>
+ </dict>
+ </array>
+
+ 
+ */

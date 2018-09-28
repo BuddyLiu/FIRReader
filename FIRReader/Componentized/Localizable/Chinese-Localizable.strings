@@ -1,0 +1,36 @@
+/* 
+  Chinese-Localizable.strings
+  ComponentizedFramework
+
+  Created by Paul on 2018/8/23.
+  Copyright © 2018年 Paul. All rights reserved.
+*/
+
+Btn_Title_Back = "返回";
+Btn_title_Refresh = "刷新";
+Btn_title_Pop = "弹出";
+
+tableView_Cell_Title_IndexOne = "国际化";
+tableView_Cell_Title_IndexTwo = "自定义弹出视图";
+tableView_Cell_Title_IndexThree = "计时器";
+tableView_Cell_Title_IndexFour = "跑马灯";
+tableView_Cell_Title_IndexFive = "悬停";
+
+tableView_Cell_SubTitle_IndexOne = "可应用内更改语言";
+tableView_Cell_SubTitle_IndexTwo = "可通过改变Xib自视图样式来实现自定义";
+tableView_Cell_SubTitle_IndexThree = "三种方式实现计时，方便调用";
+tableView_Cell_SubTitle_IndexFour = "上下滚动显示信息，样式完全自定义";
+tableView_Cell_SubTitle_IndexFive = "分栏列表头部悬停在顶部";
+
+PageMenu_Item_Title0 = "任务 A";
+PageMenu_Item_Title1 = "任务 B";
+PageMenu_Item_Title2 = "任务 C";
+
+Blur_Type_No = "无毛玻璃层收起动画";
+Blur_Type_Up = "向上收起毛玻璃层";
+Blur_Type_Down = "向下收起毛玻璃层";
+Blur_Type_Left = "向左收起毛玻璃层";
+Blur_Type_Right = "向右收起毛玻璃层";
+Blur_Type_Gradient = "渐变收起毛玻璃层";
+
+Demo_LocalizedViewController_DetailLabel_Text = "        一个iOS应用程序，如果想要在多个国家和地区的AppleStore上架，是很简单的一件事情。如果想要每个国家和地区的用户都能获得良好的使用体验，首先需要做的一件事情就是能够让用户打开App的第一时间，看到的是自己熟悉的语言。也就是说App能够根据用户当前所使用的语言或者用户手动选择的语言，实时的改变App内的语言。这就是iOS国际化所要实现的目的。\n\n链接：https://www.jianshu.com/p/7cb0fad6d06f\n來源：简书";
