@@ -81,6 +81,12 @@ static float listHeader_height = 60;
         cell.l_subTitleLabel.text = subTitle;
         cell.l_detailBtn.tag = 786 + indexPath.row;
         [cell.l_detailBtn addTarget:self action:@selector(l_detailBtnAction:) forControlEvents:(UIControlEventTouchUpInside)];
+        if([model.type isEqual:@"android"])
+        {
+            cell.l_detailBtn.hidden = YES;
+            cell.l_titleLabel.text = [NSString stringWithFormat:@"%@  %@", cell.l_titleLabel.text, model.type];
+            cell.backgroundColor = [UIColor groupTableViewBackgroundColor];
+        }
     }
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
@@ -107,8 +113,15 @@ static float listHeader_height = 60;
 {
     AppDetailTableViewController *detailTableViewController = MainStoryBoard(@"AppDetailTableViewController");
     AppListModel_Items *model = self.dataArray[indexPath.row];
-    [detailTableViewController createAppId:model.appId];
-    [self presentViewController:detailTableViewController animated:YES completion:nil];
+    if([model.type isEqual:@"android"])
+    {
+        [SVProgressHUD showErrorWithStatus:[NSString stringWithFormat:@"该 \'%@\' 仅支持Android设备！", model.name]];
+    }
+    else
+    {
+        [detailTableViewController createAppId:model.appId];
+        [self presentViewController:detailTableViewController animated:YES completion:nil];
+    }
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
