@@ -24,7 +24,7 @@ If you want to download your test app,or your friend want.You can use this app.
 If you have some good ideas, you can contact me by 13621905107@163.com. It\`s a happy things to recieve you message.
 
 ## Blog
-You can see a chinese description of this app in this website(http://www.cnblogs.com/PaulpauL/ ). I\`m waiting for you.
+You can see a chinese description of this app in this website（[fir.im 测试包下载工具--FIRReader 的图文介绍](https://www.cnblogs.com/PaulpauL/p/9723367.html) ）. I\`m waiting for you.
 
 ## end
 Thank you for reading!
@@ -61,7 +61,7 @@ Thank you for reading!
 如果您有一些好主意，可以通过13621905107@163.com与我联系。如有来信，我将不胜荣幸！
 
 ## 博客
-您可以在网站（http://www.cnblogs.com/PaulpauL/ ）上看到该应用程序的中文描述。我在等你。
+您可以在网站（[fir.im 测试包下载工具--FIRReader 的图文介绍](https://www.cnblogs.com/PaulpauL/p/9723367.html) ）上看到该应用程序的中文描述。我在等你。
 
 ## 结束
 谢谢你的阅读！
